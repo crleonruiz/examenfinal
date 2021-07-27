@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;900&display=swap');
+
+
+body{
+    font-family: 'Nunito' , sans-serif;
+}
+
+figure{
+    margin-bottom: 0;/* Elimina el margen inferior que por defecto lo pone bootstrap */
+}
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: -3px;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: -3px;
+    text-transform: lowercase;
+}
+h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#nosotros{
+    background-color: #dddddd;
+}
+#productos{
+    background-color: #bbbbbb;
+}
+#servicios{
+    background-color: #eeeeee;
+}
+#grupo{
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.padded{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+#main-footer{
+    background-color: #333333;
+    color: #ffffff;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+/*-----NAV BAR-----*/
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-link {
+    display: block;
+    padding: 1px;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+/*----- Servicios -----*/
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 100%;
+}    
